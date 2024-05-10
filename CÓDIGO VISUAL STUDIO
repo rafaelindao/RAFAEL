@@ -1,43 +1,54 @@
+HTML:
+
 <!DOCTYPE html>
-
 <html>
-
-<head>
-
-<title>ELMA CHIPS</title>
-
-<meta charset="utf-8">
-
+  <head>
+    <title>ELMA CHIPS</title>
+    <meta charset="utf-8">
+    <link rel="sttlesheet" href="rafael.style.css">
 </head>
-
 <header>
-
-<h1>FAMÍLIA ELMA CHIPS</h1>
-
-<img src= "file:///home/escola/Downloads/quer-empreender-na-area-alimenticia-conheca-a-historia-da-elma-chips_jpg" alt= "quer-empreender-na-area-alimenticia-conheca-a-historia-da-elma-chips_"  height="100" width="50">
-
-<figcaption>Em 1973, a PepsiCo contratou um especialista em planejamento estratégico a fim de elaborar um plano de investimento de 10 anos no Brasil, incluindo sondar empresas do ramo de snacks para futuras aquisições. A intenção da PepsiCo era investir e ao mesmo tempo, ser líder de mercado. As empresas escolhidas foram a American Potato Chips e a Elma Produtos Alimentícios. Em 1974, a PepsiCo adquiriu e uniu as duas empresas, nascendo a Elma Chips, com uma linha variada de produtos para diferentes tipos de consumidores. A marca se tornou conhecida com seu slogan: “É impossível comer um só” </figcaption>
-
-</header>
-
-<body>
-
-<h1>CATALOGO DE PRODUTOS ELMA CHIPS</h1>
-
+    <h1>FAMÍLIA ELMA CHIPS</h1>
 <figure>
-
-<img src= "Link da imagem salva no desktop 2" alt= "nome da imagem 1" height= "300" width= "300">
-
-<figcaption>Legenda da Imagem</figcaption>
-
-<p>
-
-Escreva um texto sobre a escola por exemplo ou o assunto do seu site com 2 linhas
-
-</p>
-
+    <figcaption>CHIPS SENSAÇÃO DELICIA</figcaption>
+        <img src="c:\Users\Usuario\Desktop\baconzitos.webp" alt="CHIPS" height="300" width="325">
 </figure>
-
+</header>
+    <body>  Em 1973, a PepsiCo contratou um especialista em planejamento estratégico a fim de elaborar um plano de investimento de 10 anos no Brasil, incluindo sondar empresas do ramo de snacks para futuras aquisições. A intenção da PepsiCo era investir e ao mesmo tempo, ser líder de mercado. As empresas escolhidas foram a American Potato Chips e a Elma Produtos Alimentícios. Em 1974, a PepsiCo adquiriu e uniu as duas empresas, nascendo a Elma Chips, com uma linha variada de produtos para diferentes tipos de consumidores. A marca se tornou conhecida com seu slogan: “É impossível comer um só”
+<figure>
+  <figcaption>CHIPS SENSAÇÃO GOSTOSURA</figcaption> 
+        <img src="c:\Users\Usuario\Desktop\209471-800-auto.webp" alt="CHIPS" height="300" width="325">
+</figure>
 </body>
-
 </html>
+
+CSS:
+
+p {   
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 17, 255);
+}
+    h1 {
+        font-family: serif;
+}
+    h2 {
+        font-family: sans-serif;
+} 
+    p {
+        font-family: monospace;
+}
+    p {
+                text-align: right;
+}
+    p {
+            line-height: 3px; 
+            letter-spacing: 3px; 
+            word-spacing: 5px; 
+            text-indent: 30px;
+}
+    body {
+            border-color: red;
+            border-style: solid;
+            border-width: 1px;
+}
+          
